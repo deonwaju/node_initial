@@ -1,24 +1,12 @@
 
 
-const damo = 'damo'
-const seun = 'seun'
-const femi = 'semi'
+const names = require('./2-names')
+const functions = require('./3-utils')
+const data = require('./4-alternative_export_modules')
+//const sayHi = require('./5-sayHi')
 
-const number = '10'
-
-const sayHi = (name) => {
-    console.log(`please say hi to ${name}`)
-}
-
-const sayNumber = (number) => {
-
-    parseInt(number)
-
-    return console.log(`please say hi to ${number}`)
-    
-}
+console.log(names, functions, data)
 
 
-console.log(sayHi(damo))
-console.log(sayHi(seun))
-console.log(parseInt(number))
+functions.sayHi(names.femi)
+//console.log(module)
