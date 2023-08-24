@@ -5,5 +5,3 @@ function decrypt(data){
 exports.read = function read(){
     return decrypt('data');
 }
-
-module.exports = {read};
