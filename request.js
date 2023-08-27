@@ -1,5 +1,5 @@
 const axios = require('axios');
-const address = 'https://wwww.google.com';
+const address = 'https://www.google.com';
 
 
 axios.get(address)
@@ -10,5 +10,5 @@ axios.get(address)
     console.log(error);
 })
 .then(() =>{
-    console.log("All done");
+    console.log("All dones");
 });
